@@ -1,5 +1,23 @@
 # Indian Labour Law AI Agent - Complete User Manual
 
+
+
+## Getting Started
+
+1. Clone the repo  
+   git clone https://github.com/...  
+2. Create and activate virtual environment  
+   python -m venv venv  
+   venv\Scripts\activate  (on Windows)  
+3. Install dependencies  
+   pip install -r requirements.txt  
+4. Copy `.env.example` to `.env` and fill with your credentials  
+5. Run the application  
+   python main.py  
+6. Open in browser  
+   http://localhost:5000  
+
+
 ## PROJECT OVERVIEW
 
 This is an **automated AI agent** that continuously crawls official Indian labour-law sources, detects new or updated laws using semantic similarity, summarizes each law with AI, and maintains a clean, versioned repository in a PostgreSQL database.
